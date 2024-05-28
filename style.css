@@ -1,0 +1,48 @@
+h1 {
+    font-family: 'Lobster', crusive;
+    text-align: center;
+    font-size: 60px;
+    transform: rotate(-10deg);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 660px; /* Adjust based on the width of your cups and margin */
+    margin: 0 auto;
+}
+
+.cup{
+    width: 200px;
+    height: 200px;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    border-radius: 0 0 20px 20px;
+    cursor: pointer;
+    margin: 10px;
+    background-size: 200% 200%;
+    transition: background-position 1000ms;
+    box-sizing: border-box;
+}
+
+.yellow {
+    background-image: linear-gradient(to top, #FFF700 50%, transparent 50%);
+}
+
+.green {
+    background-image: linear-gradient(to top, #299617 50%, transparent 50%);
+}
+.blue {
+    background-image: linear-gradient(to top, #5DADEC 50%, transparent 50%);
+}
+.purple {
+    background-image: linear-gradient(to top, #9C51B6 50%, transparent 50%);
+}
+.red {
+    background-image: linear-gradient(to top, #FF3855 50%, transparent 50%);
+}
+.brown {
+    background-image: linear-gradient(to top, #A83731 50%, transparent 50%);
+}
